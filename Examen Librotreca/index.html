@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Libroteca</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+    <body>
+        <header>
+            <div class="logo">
+                <h1>Libroteca</h1>
+                <img src="img/logo.png" alt="libro">
+            </div>
+            <div class="sesion">
+                <button onclick="sesion(this)">Inicio Sesion</button>
+                <button>Registro</button>
+            </div>
+        </header>
+        <div>
+            <nav>
+                <div>
+                    <img src="img/libro.png" alt="libro">
+                    <a href="#">Elige tu libro</a>
+                </div>
+                <div>
+                    <img src="img/check.png" alt="checker">
+                    <a href="#">Revisa disponibilidad</a>
+                </div>
+                <div>
+                    <img src="img/separalo.png" alt="lista">
+                    <a href="#">Sepáralo</a>
+                </div>
+                <div>
+                    <img src="img/truck.png" alt="camion">
+                    <a href="#">Recíbelo</a>
+                </div>
+            </nav>
+        </div>
+        <div>
+            <div id="nav2">
+                <div>
+                    <a href="#" onclick="cambiarTexto(this)">Ficción</a>
+                </div>
+                <div>
+                    <a href="#" onclick="cambiarTexto(this)">Históricos</a>
+                </div>
+                <div>
+                    <a href="#" onclick="cambiarTexto(this)">Tecnología</a>
+                </div>
+                <div>
+                    <a href="#" onclick="cambiarTexto(this)">Autoayuda</a>
+                </div>
+                <div>
+                    <a href="#" onclick="cambiarTexto(this)">Poesía</a>
+                </div>
+            </div>
+        </div>
+        <section>
+            <div class="titulo">
+                <h2 class="cambiartitulo">Todos los Libros</h2>
+            </div>
+            <div class="cards">
+                <div>
+                    <img src="img/cien.jpg" alt="cienañosdesoledad-gabrielgarcia">
+                    <p>Cien Años de Soledad <br> <span class="autor">Gabriel García Márquez</span></p>
+                    <button onclick="rentar(this)">Rentar</button>
+                </div>
+                <div>
+                    <img src="img/rayuela.jpg" alt="rayuela-juliocortazar">
+                    <p>Rayuela <br> <span class="autor">Julio Cortázar</span></p>
+                    <button onclick="rentar(this)">Rentar</button>
+                </div>
+                <div>
+                    <img src="img/travesuras.jpg" alt="travesuras-mariovargasllosa">
+                    <p>Travesurs de la Niña Mala <br> <span class="autor">Mario Vargas Llosa</span></p>
+                    <button onclick="rentar(this)">Rentar</button>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div>
+                <p>Todos los derechos reservados. &copy;Libroteca</p>
+            </div>
+        </footer>
+        <script src="script/script.js"></script>
+    </body>
+</html>

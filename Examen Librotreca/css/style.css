@@ -1,0 +1,152 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+img{
+    width: 30px;
+}
+
+
+button{
+    cursor: pointer;
+    box-shadow: 2px 2px 2px;
+}
+
+
+
+a{
+    text-decoration: none;
+    color: black;
+}
+nav a:hover{
+    transition: 0.3s;
+    transform: scale(1.1);
+}
+#nav2 a:hover{
+    text-decoration: underline;
+}
+
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 2px solid black;
+}
+
+header .logo{
+    display: flex;
+    gap: 10px;
+}
+
+header img{
+    width: 60px;
+    height: 50px;
+}
+
+header button:first-child{
+    width: 150px;
+    height: 30px;
+    background-color: #21548f;
+    color: white;
+}
+
+header button:nth-child(2){
+    width: 100px;
+    height: 30px;
+    background-color: #a7c5f6
+}
+
+header button:hover{
+    transition: 0.5s;
+    transform: scale(0.9);
+}
+
+
+
+.sesion{
+    display: flex;
+    gap: 10px;
+}
+
+
+nav, #nav2{
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+}
+
+nav div, #nav2 div{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-weight: bolder;
+}
+
+#nav2{
+    background-color: #a9c4f3;
+    height: 1px;
+}
+
+
+
+.titulo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    background-color: #deddde;
+}
+
+
+
+.cards{
+    display: flex;
+    justify-content: space-around;
+    gap: 40px;
+}
+
+.cards img{
+    width: 100%;
+}
+
+.cards div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    background-color: #efeef0;
+    height: 600px;
+    width: 33%;
+}
+
+.cards .autor{
+    font-weight: bolder;
+}
+
+.cards button{
+    font-weight: bold;
+    width: 30%;
+    height: 8%;
+    overflow: hidden;
+    background-color: #a7c5f5;
+    box-shadow: 2px 2px 2px;
+}
+
+
+
+footer{
+    background-color: #21548f;
+    color: white;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
